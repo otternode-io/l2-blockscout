@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  sig-provider:
+    image: ghcr.io/otternode-io/sig-provider
+    restart: always
+    container_name: 'sig-provider'
